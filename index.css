@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Nexa", sans-serif;
+    background: #f7f9fc;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* Titolo principale */
+h1 {
+    text-align: left;
+    margin-left: 60px;
+    font-size: 2.7rem;
+    color: #ffffff; 
+    line-height: 120%;
+}
+
+#anno {
+    font-size: 2rem;
+}
+
+header {
+    height: 400px;
+    background-image: 
+        linear-gradient(to bottom, 
+            rgba(0,0,0,0.4),        /* Parte alta: nero al 40% */
+            rgba(0,0,0,0.8),        /* Centro: nero al 60% */  
+            rgba(247,249,252,0.2),  /* Verso il basso: colore del body al 90% */
+            rgba(247,249,252,1)     /* Fondo: colore del body al 100% */
+        ),
+        url(applicazioni-sofware.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+    padding-bottom: 80px;
+}
+
+/* Paragrafo */
+p {
+    text-align: left;
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 40px;
+    margin-left: 60px;
+    font-style: italic;
+}
+
+/* Lista */
+ul {
+    list-style: none; /* toglie i pallini */
+    padding: 0;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+li {
+    background: white;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* Link */
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #1e3a8a;
+}
+
+/*
+a:hover {
+    color: #2563eb;  
+} */
